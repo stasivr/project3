@@ -89,7 +89,8 @@
     &__icons {
       margin: 0 auto;
       margin-top: 30px;
-      width: 280px;
+      min-width: 280px;
+      width: 75%;
     }
     &__icon {
       font-size: 12px;
