@@ -49,8 +49,8 @@ $(document).ready(function () {
     responsiveClass: true,
     nav: true,
     navText: [
-      '<span class="arrow-owl arrow-left"><img src="../icons/prevarrow.png"></span>',
-      '<span class="arrow-owl arrow-right"><img src="../icons/nextarrow.png"></span>',
+      '<span class="arrow-owl arrow-left"><img src="icons/prevarrow.png"></span>',
+      '<span class="arrow-owl arrow-right"><img src="icons/nextarrow.png"></span>',
     ],
   });
 });
