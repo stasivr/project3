@@ -1,12 +1,12 @@
 .carousel {
   padding: 81px 0;
   &__inner {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
     position: relative;
   }
-  .slick-prev,
-  .slick-next {
+  .arrow-left,
+  .arrow-right {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -16,8 +16,14 @@
     width: 45px;
     height: 60px;
   }
-  .slick-next {
+  .arrow-right {
     left: auto;
     right: -66px;
+  }
+  .tns-item {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
